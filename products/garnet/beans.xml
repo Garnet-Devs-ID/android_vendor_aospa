@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/taro.xml" />
+
+  <project path="device/xiaomi/garnet" name="Garnet-Devs-ID/device_xiaomi_garnet" remote="github" revision="vauxite" />
+  <project path="device/xiaomi/garnet-kernel" name="Garnet-Devs-ID/device_xiaomi_garnet-kernel" remote="github" revision="vauxite" clone-depth="1" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="vendor/xiaomi/garnet" name="Garnet-Devs-ID/vendor_xiaomi_garnet" remote="github" revision="vauxite" clone-depth="1" />
+</manifest>
